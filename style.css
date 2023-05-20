@@ -138,4 +138,20 @@ body {
     border: none;
     background-color: #f5f5f5;
   }
+
+  .modal button[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077cc;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .modal button[type="submit"]:hover {
+    background-color: #fff;
+    color: #0077cc;
+  }
     
