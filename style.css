@@ -29,3 +29,10 @@ body {
     color: #fff;
     cursor: pointer;
   }
+
+  .nav button:hover {
+    background-color: #fff; /* change the background color */
+    color: #0077cc;
+    border: 1px solid #0077cc; /* add a border on hover */
+  }
+  
