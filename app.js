@@ -100,4 +100,12 @@ addExpenseFormEl.addEventListener('submit', async (event) => {
       displayTransactions();
       addExpenseModalEl.style.display = 'none';
     });
-    
+    // Reset all transactions
+document.getElementById('reset').addEventListener('click', async () => {
+    await fetch('http://localhost:3000/transactions', {
+      method: 'DELETE'
+    });
+  
+    displayTransactions();
+  });
+  
