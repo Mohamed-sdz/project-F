@@ -19,4 +19,13 @@ body {
   h1 {
     margin: 0;
   }
-  
+  .nav button {
+    padding: 10px 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077cc; /* change the background color */
+    color: #fff;
+    cursor: pointer;
+  }
