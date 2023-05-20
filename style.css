@@ -36,3 +36,13 @@ body {
     border: 1px solid #0077cc; /* add a border on hover */
   }
   
+  main {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .balance, .transactions {
+    width: 48%;
+  }
