@@ -54,4 +54,15 @@ addIncomeFormEl.addEventListener('submit', async (event) => {
   const amount = parseFloat(event.target.elements['income-amount'].value);
   const description = event.target.elements['income-description'].value;
 
-  
+  // Add transaction to API
+  await fetch('http://localhost:3000/transactions', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      type: 'income',
+      description,
+      amount
+    })
+  });
