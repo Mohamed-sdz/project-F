@@ -108,4 +108,16 @@ document.getElementById('reset').addEventListener('click', async () => {
   
     displayTransactions();
   });
+  // Delete transaction functionality
+transactionsListEl.addEventListener('click', async (event) => {
+    if (event.target.classList.contains('delete-button')) {
+      const transactionId = parseInt(event.target.parentElement.id.split('-')[1]);
   
+      // Delete transaction from API
+      await fetch(`http://localhost:3000/transactions/${transactionId}`, {
+        method: 'DELETE'
+      });
+  
+      displayTransactions();
+    }
+  });
