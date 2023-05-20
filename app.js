@@ -66,3 +66,20 @@ addIncomeFormEl.addEventListener('submit', async (event) => {
       amount
     })
   });
+  displayTransactions();
+  addIncomeModalEl.style.display = 'none';
+});
+
+// Add expense modal functionality
+const addExpenseModalEl = document.getElementById('add-expense-modal');
+const addExpenseFormEl = document.getElementById('add-expense-form');
+
+document.getElementById('add-expense').addEventListener('click', () => {
+  addExpenseModalEl.style.display = 'block';
+});
+
+addExpenseFormEl.addEventListener('submit', async (event) => {
+  event.preventDefault();
+
+  const amount = parseFloat(event.target.elements['expense-amount'].value);
+  const description = event.target.elements['expense-description'].value;
