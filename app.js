@@ -39,4 +39,19 @@ async function displayTransactions() {
 }
 
 displayTransactions();
+
+// Add income modal functionality
+const addIncomeModalEl = document.getElementById('add-income-modal');
+const addIncomeFormEl = document.getElementById('add-income-form');
+
+document.getElementById('add-income').addEventListener('click', () => {
+  addIncomeModalEl.style.display = 'block';
+});
+
+addIncomeFormEl.addEventListener('submit', async (event) => {
+  event.preventDefault();
+
+  const amount = parseFloat(event.target.elements['income-amount'].value);
+  const description = event.target.elements['income-description'].value;
+
   
