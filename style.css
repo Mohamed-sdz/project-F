@@ -64,3 +64,11 @@ body {
     margin: 0;
     font-size: 48px;
   }
+
+  .transactions {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  
