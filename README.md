@@ -1,4 +1,4 @@
-#  MY Fainance Tracker App
+#  MY Finance Tracker App
  
 This is a simple budget tracker app that allows users to add multiple transactions (income or expense) and view their current balance. This app uses a RESTful API hosted on http://localhost:3000/transactions to store and retrieve transactions.
 
