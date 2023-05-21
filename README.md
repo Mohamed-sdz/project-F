@@ -2,7 +2,7 @@
  
 This is a simple budget tracker app that allows users to add multiple transactions (income or expense) and view their current balance. This app uses a RESTful API hosted on http://localhost:3000/transactions to store and retrieve transactions.
 
-Features
+#Features
 View all transactions including their descriptions, amounts, and types (income or expense)
 Add a new income transaction
 Add a new expense transaction
@@ -33,4 +33,5 @@ To add a new income transaction, click on the "Add Income" button and fill out t
 To add a new expense transaction, click on the "Add Expense" button and fill out the modal form.
 To delete a transaction, click on the "Delete" button next to the transaction in the list.
 To reset all transactions, click on the "Reset" button at the bottom of the page.
-Contributing
+ Contributing
+Please feel free to fork the repository and submit pull requests with your improvements or bug fixes.
