@@ -35,3 +35,21 @@ To delete a transaction, click on the "Delete" button next to the transaction in
 To reset all transactions, click on the "Reset" button at the bottom of the page.
  Contributing
 Please feel free to fork the repository and submit pull requests with your improvements or bug fixes.
+  example from my CLI 
+ Resources
+  http://localhost:3000/transactions
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+
++2
+GET /transactions 200 32.126 ms - 484
+POST /transactions 201 61.349 ms - 76
+GET /transactions 200 5.979 ms - 574
++5
+POST /transactions 201 8.842 ms - 85
+GET /transactions 200 7.960 ms - 673
