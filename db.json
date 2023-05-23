@@ -1,46 +1,16 @@
 {
   "transactions": [
     {
-      "id": 1,
-      "type": "income",
-      "description": "Freelance Payment",
-      "amount": 5000
-    },
-    {
-      "id": 2,
-      "type": "income",
-      "description": "Rent Payment",
-      "amount": 1200
-    },
-    {
-      "id": 3,
-      "type": "expense",
-      "description": "Groceries",
-      "amount": 200
-    },
-    {
-      "id": 4,
-      "type": "expense",
-      "description": "Gas",
-      "amount": 50
-    },
-    {
-      "id": 5,
-      "type": "expense",
-      "description": "Internet Bill",
-      "amount": 75
-    },
-    {
       "type": "expense",
       "description": "rent",
-      "amount": 300,
-      "id": 6
+      "amount": 1700,
+      "id": 1
     },
     {
       "type": "income",
       "description": "freelance ",
-      "amount": 1000.01,
-      "id": 7
+      "amount": 5000,
+      "id": 2
     }
   ]
 }
