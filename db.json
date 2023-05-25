@@ -1,16 +1,30 @@
-{
+   {
   "transactions": [
     {
-      "type": "expense",
-      "description": "rent",
-      "amount": 1700,
-      "id": 1
+      "type": "income",
+      "description": "Salary",
+      "amount": 3000,
+      "id": 3
     },
     {
+      "type": "expense",
+      "description": "Groceries",
+      "amount": 300,
+      "id": 4
+    },
+
+    {
       "type": "income",
-      "description": "freelance ",
-      "amount": 5000,
-      "id": 2
+      "description": "Freelance Web Development",
+      "amount": 2000,
+      "id": 5
+    },
+    {
+      "type": "expense",
+      "description": "Electricity Bill",
+      "amount": 120,
+      "id": 6
     }
   ]
+ 
 }
